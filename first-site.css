@@ -44,6 +44,39 @@ section {
   background-position: right;
   padding-bottom: 10%;
 }
+.color-line {
+  color: rgba(255, 166, 0, 0.473);
+}
+.single-experience {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 80%;
+  background-color: white;
+}
+.experience-area {
+  background-image: url('images/exp-bg.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#mature-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#picchi-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+.single-experience p {
+  text-align: justify;
+  padding: 2%;
+}
+.single-experience h2,
+h3 {
+  text-align: center;
+}
+
 footer {
   text-align: center;
 }
